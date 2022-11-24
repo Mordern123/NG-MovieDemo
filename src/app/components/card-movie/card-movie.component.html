@@ -8,6 +8,8 @@
   <div>
     <span>{{ movie.Type }}</span>
     <h3>{{ movie.Title }}</h3>
-    <button class="btn btn-primary">Movie details</button>
+    <button class="btn btn-primary" routerLink="/movies/{{ movie.imdbID }}">
+      Movie details
+    </button>
   </div>
 </div>
